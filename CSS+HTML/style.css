@@ -1,0 +1,23 @@
+/**a estilização, até aqui, vai priorizar o elemento filho. Se alguma div pai está linkada com alguma classe X, e o filho com alguma classe Y, há de se respeitar a classe do filho**/
+
+.textoLorem {
+  /**forma de linkar as classes das divs**/
+  background-color: blue; /**cor de fundo**/
+  color: violet; /**cor da fonte**/
+}
+
+#textoLorem {
+  /**forma de linkar os IDs das divs**/
+  background: green;
+}
+
+h1 {
+  /**forma da chamar componentes específicos da página. Dessa forma, todos os "h1" receberão o design determinado aqui dentro**/
+  color: rebeccapurple;
+}
+
+.testeImagem {
+  /*aqui colocaremos uma imagem como design*/
+  background: url(../imagens/61a6oqpI6LL._AC_SX425_.jpg) center/ cover no-repeat
+    fixed; /**vai fazer com que a imagem preencha totalmente o fundo do texto, e fique fixa na página, dando um efeito interessante quando rolada para baixo**/
+}
