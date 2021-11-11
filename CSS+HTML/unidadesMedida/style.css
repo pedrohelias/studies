@@ -1,0 +1,67 @@
+/**São unidades de medida Fixas**/
+
+.centimetro {
+  /**classe feita utilizando medidas em cm**/
+  background-color: blue;
+  height: 1cm; /**altura**/
+  width: 1cm; /**largura**/
+}
+
+.milimetro {
+  /**classe feita utilizando medidas em mm**/
+  background-color: red;
+  height: 5mm; /**altura**/
+  width: 5mm; /**largura**/
+}
+
+.inn {
+  /**classe feita utilizando medidas em mm**/
+  background-color: green;
+  height: 1in; /**altura**/
+  width: 1in; /**largura**/
+}
+
+.pixel {
+  /**classe feita utilizando medidas em mm**/
+  background-color: yellow;
+  height: 20px; /**altura**/
+  width: 20px; /**largura**/
+}
+
+/**São unidades de medida relativas **/
+
+.elementoPai {
+  font-size: 20px; /**propriedade para alterar o tamanho da fonte**/
+}
+
+.elementoFilho {
+  font-size: 2em; /**para um elemento filho, temos que o "em" pegará a caracterísitca para a propriedade utilizada do elemento pai e vai aplicar diretamente ao elemento filho. Exemplo: se no elemento pai eu tenho font-size: 20px e utilizo font-size: 1em no elemento filho, então terei que o tamanho da fonte do elemento filho será igual ao tamanho da fonte do elemento pai. Se eu dobrar o em, então o elemento filho terá o dobro do tamanho da fonte do elemento pai e assim por diante. **/
+
+  /**Existe a possibilidade de utilizar o "rem", que faz referência ao elemento raiz do css. No caso do HTML, o primeiro elemento adicionado é a tag <html>, então se fossemos estilizar o <html> neste codigo de css, o "rem" faria referência a ele*/
+}
+
+.vw {
+  /**1 vw vai ser o equivalente a 1% da largura da tela. O mesmo é válido para vh, que é responsável pela altura. Pode se utilizar vmax para o maximo da pagina, vmin para o minimo, e % para especificação em porcentagem da página**/
+
+  width: 50%;
+  background-color: green;
+  height: 10vh;
+}
+
+.div1 {
+  background-color: red;
+  width: 100%;
+  height: 10px;
+}
+
+.container {
+  background-color: green;
+  height: 100px;
+  width: 100%;
+  color: white;
+  margin-top: 10px; /**a margin distancia os elementos da sua borda para fora**/
+  padding: 10px; /**o padding distancia os elementos para dentro **/
+}
+
+.conteudo {
+}
