@@ -17,3 +17,13 @@
 a {
   text-decoration: none; /**vai retirar a decoração do link**/
 }
+
+/**existem 3 tipos de fontes, Com serifa(uma decoração a mais, bordinhas, o "frufru", sem serifa e monospace(essas possuindo o mesmo tamanho para palavras com n letras, por exemplo a palavra "Dado" num fonte monospace terá o mesmo tamanho da palavra "Gado". O que é colocado após a virgula do primeiro argumento é a fonte de backup. Se no computador do usuario naõ tiver Arial, ele vai atras da Times New Roman**/
+
+p {
+  font-family: Arial, "Times New Roman";
+  font-style: italic; /** pode ser itálico e afins. Normal é o padrão**/
+  font-size: 22px; /**variando o tamanho da fonte **/
+  font-weight: bold; /**vai deixar negrito**/
+  font-variant: small-caps; /**vai fazer com que todo o texto seja escrito com letra maiúscula, porém com dirença entre as inicias**/
+}
