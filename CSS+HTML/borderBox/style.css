@@ -1,0 +1,32 @@
+body {
+  /**forçando a retirada dos atributos iniciais do body**/
+  padding: 0;
+  margin: 0;
+}
+
+.Container {
+  background-color: red; /**essa é a cor de fundo do container**/
+  padding: 10px; /**distancia da borda do container para a borda do conteudo, em vermelho**/
+  border: 5px solid blue; /**essa é a borda do container**/
+  margin: 10px; /**da margin para todos os lados**/
+}
+
+.Conteudo {
+  background-color: aqua; /**essa é a cor de fundo do conteudo**/
+  border: 5px green solid;
+  margin: 5px; /**margem da borda do conteudo para a borda do container. Na prática ela vai forçar o padding do elemento pai a dobrar**/
+  padding: 5px; /**faz com que o texto do conteudo tenha uma distância das margens da div conteudo**/
+  /**tem também o outline, que subjulga o padding, vai fazer com que a borda seja vista no lugar do padding**/
+}
+
+/**a borda faz com que o valor de width sofra adiçaõ da borda.**/
+/**No entando é possível utilizar o box-sizing, para tentar forçar com que tudo fique do tamanho que desejamos**/
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: blueviolet;
+  border: 5px solid blue;
+  box-sizing: border-box; /**faz  com que o a borda respeite o tamanho determinado pelo width. A borda vai ficar pela parte de dentro **/
+}
