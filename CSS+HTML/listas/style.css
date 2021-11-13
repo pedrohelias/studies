@@ -1,0 +1,22 @@
+.listaNãoOrdenada {
+  /**vai fazer desaparecer as bolinhas da lista. É possível também altrar o tipo de simbolo que aparece para determinar os itens da lista**/
+
+  /**list-style-image: url("../../imagens/pokebola.png"); /**é possível utilizar uma imagem como marcador**/
+  list-style-image: url("../../imagens/Screenshot\ from\ 2021-11-13\ 19-23-20.png");
+  margin-left: 50px;
+  /**margin: 0; /**listas tem como padrão margin e padding 0. Dessa forma podemos alterar**/
+  /**padding: 0; **/
+  background-color: yellow;
+  padding: 10px;
+}
+
+.listaOrdena {
+  list-style-type: upper-roman;
+}
+
+li {
+  background: aqua;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
