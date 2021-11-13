@@ -14,8 +14,34 @@
   text-shadow: 1px 5px 5px #bbb; /**sombreamento no texto respeitando a seguinte ordem: deslocamento pra direita, deslocamento para baixo, raio, cor**/
 }
 
-a {
+.links {
   text-decoration: none; /**vai retirar a decoração do link**/
+  background: red;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+}
+
+.links:hover {
+  /**quanndo passa o mouse por cima**/
+  background: rgb(240, 89, 70);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.links:active {
+  /**mesmo clicando e saindo, o estilo permanece**/
+  background: rgb(240, 89, 70);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.links:visited {
+  /**se o link for visitado, o design dele vai mudar. util para ordenar visitas de links**/
+  background: #ddd;
 }
 
 /**existem 3 tipos de fontes, Com serifa(uma decoração a mais, bordinhas, o "frufru", sem serifa e monospace(essas possuindo o mesmo tamanho para palavras com n letras, por exemplo a palavra "Dado" num fonte monospace terá o mesmo tamanho da palavra "Gado". O que é colocado após a virgula do primeiro argumento é a fonte de backup. Se no computador do usuario naõ tiver Arial, ele vai atras da Times New Roman**/
