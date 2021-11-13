@@ -1,0 +1,19 @@
+.textStyle {
+  text-align: center; /**vai alinhar o texto, centro-esquerda-direta**/
+  text-transform: capitalize; /**vai tornar tudo maiusculo ou minusculo, entre outras opções**/
+}
+
+.textJustificar {
+  text-align: justify;
+  text-transform: capitalize;
+  text-indent: 35px; /**vai formar aquele espaço que o parágrafo faz**/
+  text-decoration: none red;
+  letter-spacing: 5px; /**vai criar espaço entre as letras **/
+  line-height: 15px; /**altera a altura das linhas **/
+  word-spacing: 10px; /**separaçaõ de palavras**/
+  text-shadow: 1px 5px 5px #bbb; /**sombreamento no texto respeitando a seguinte ordem: deslocamento pra direita, deslocamento para baixo, raio, cor**/
+}
+
+a {
+  text-decoration: none; /**vai retirar a decoração do link**/
+}
