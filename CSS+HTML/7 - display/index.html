@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Display</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div>
+            <!--As divs quando são realizadas, automaticamente quebram a linha. Ou seja, numa frase "<div>eu sou <div>corajoso</div></div>" a frase seria: 
+            eu sou 
+            corajoso 
+            Isso tudo porque uma div seguida de outra pula a linha!-->
+            
+            <!--Quando colocado entre paragrafos <p></p>, há pulos adicionais do texto
+            por exemplo
+            <p>Eu sou forte</p>
+            <p>Eu sou demais</p>
+            Sairá como:
+            Eu sou forte
+        
+            Eu sou demais.
+        
+            É bom lembrar que esse espaço são margens naturais dos paragrafos. Sendo possível retiralos, com margin:0-->
+
+            <!--Quando se deseja inserir algum texto dentro de outro, utiliza-se o Span. Dessa forma:
+            <p>Aqui vai um texto seguido de <span>outro texto interno</span> dentro desse texto </p> e assim se constroi o design de textos internos-->
+                
+            <p class="textoExterno">Aqui vai um exemplo de texto que contém um <span class="textoInterno">texto dentro desse texto</span> podendo, dessa forma, ser alterado</p>
+
+            <!--Display block normalmente vai do início ao fim da linha. e ao fim, quase se termina o conteudo, o proximo conteudo vai pra proxima linha. Div e Paragrafos são displays blocks. -->
+            <!--O Display Inline normalmente vai possibilitar com que varios blocos fiquem numa mesma linha. O Span é um ótimo exemplo de display inline-->
+
+            <!--Nunca se deve usar um elemento do tipo Block dentro de um paragrafo-->
+            <!--Não pode ter div dentro de paragrafo, nem paragrafo dentro de paragrafo-->
+            <!--O display inline-block tem as caracterisitacas do display inline mas ele permite que se modifique altura e largura -->
+            <!--Display: none faz com o elemento desapareça da tela, como se ele nunca tivesse existido -->
+        
+        </div>
+
+    </body>
+
+
+</html>
