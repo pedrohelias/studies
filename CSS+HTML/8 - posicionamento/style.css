@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0px !important;
+}
+
+.quadrado {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin: auto; /**vai dar o efeito de sempre estar centralizada, pois há um equilibrio entre as margens**/
+}
+
+.quadrado2 {
+  width: 50px;
+  height: 50px;
+  display: inline-block; /**precisa ser inline-block pois inline não aceita width e height**/
+  position: static; /**é o padraõ**/
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+}
+
+.green {
+  background-color: green;
+}
+
+.retangulo {
+  width: 50px;
+  height: 600px;
+  margin-bottom: 10px;
+}
+
+.intermediadora {
+  margin: 10px;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+
+  right: 40px; /**vai se deslocar para sobrepor o bloco. Daria para ser feito com left: -40px**/
+}
+
+.fixed {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  background-color: purple;
+  position: fixed;
+
+  /**passa a ter -20 em relação a janela da tela**/
+  bottom: 20px; /**vai cortar o quadrado pois o left está em relação a janela e o bottom está normal**/
+  /**é interessante notar que mesmo com a rolagem da página, o campo fixo realmente e de fato fica fixo e colado na pagina**/
+}
+
+.absolute {
+  position: absolute;
+  left: 0;
+}
