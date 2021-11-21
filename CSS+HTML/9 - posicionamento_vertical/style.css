@@ -1,0 +1,8 @@
+li {
+  float: left; /** uma especie de dysplay inline. E poderia ser float right**/
+  list-style: none;
+  margin-right: 10px; /**espaça os objetos da lista**/
+  border: 1px black solid;
+  padding: 5px; /**o objeto interno se afasta da borda**/
+  background-color: aqua;
+}
