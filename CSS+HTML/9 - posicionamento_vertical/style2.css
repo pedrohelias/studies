@@ -1,6 +1,6 @@
 .cartao {
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   border: 1px black solid;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -11,10 +11,14 @@
 }
 
 .pedro1 {
-  line-height: 200px; /**vai alinhar o objeto de acordo com o height do pai**/
+  line-height: 400px; /**vai alinhar o objeto de acordo com o height do pai**/
 }
 
 .pedro2 {
-  line-height: 200px;
+  line-height: 400px;
 }
 /**o termo clear vai garantir que não exista nada em qualquer apontamento que o objeto está**/
+
+.pokebola {
+  clear: left; /**vai fazer quebrar a linha pois não fica com nada a esquerda**/
+}
