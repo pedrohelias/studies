@@ -1,0 +1,25 @@
+.header {
+  background-color: gray;
+  height: 100px;
+  width: 80%; /**utilizar porcentagens**/
+  margin: auto; /**vai fazer com que o elemento se regule na tela**/
+  position: relative; /**é necessário estar relativo para poder utilizar top e left no filho**/
+}
+
+.conteudo {
+  height: 80px;
+  width: 60%;
+  background-color: blue;
+  margin: auto;
+  position: absolute;
+  top: 50%; /**ordenando aonde deve estar em relação ao top**/
+  left: 50%; /**ordenando aonde deve estar em relaçaõ a esquerda**/
+  transform: translate(
+    -50%,
+    -50%
+  ); /**transladando nos 2 eixos para garantir que estejam alinhados**/
+  text-align: center; /**se ocorrer algum texto**/
+
+  color: white;
+  font-size: 5vw; /**vw é totalmente responsivo. Se alterar o tamanho da tela, o tamanho da fonte muda tmb**/
+}
