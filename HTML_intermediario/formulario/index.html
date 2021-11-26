@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form method="get" action="https://www.youtube.com/results">
+            <!--Tudo que estiver dentro do formulario vai ser enviado ao passo que se clica no botão de enviar. Para inicializasr um formulario, primeiro, precisamos de um método, que pode ser GET ou POST. Depois precisamos dizer a Action. Na action, se tiver no mesmo domínio, basta colocar "/..." e depois da barra o que se busca. Se não tiver no mesmo domínio, ai é necessário colocar o "http://"-->
+            <!--Com o método GET, os dados vao ser dispostos no browser. Já se os dados forem POST, os dados ficam ocultos-->
+            <input type="text" name="search_query"> <!--text é o tipo mais comum-->
+            <input type="submit" >
+            <!--No caso acima, pegamos qualquer coisa e colamos no campo de texto, assim ao apertar submit ele vai direto para a busca. É importante utilizar o metodo GET pois a requisição do youtube espera esse tipo de método-->
+        </form>
+
+    </body>
+</html>
