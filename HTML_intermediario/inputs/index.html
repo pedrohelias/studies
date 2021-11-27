@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>inputs</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <form method="GET" action=""> <!--se eu deixo o campo de action vazio, ele utiliza a propria pagina-->
+            <input class="senha" type="password" name="senha"> <!--não faz sentido usar o campo password com método get pois não queremos que uma informação como senha seja repassada no link-->
+            <br>
+            <input type="checkbox" name="curso" value="Curso1"> <!--cria um checkbox --> curso0
+            <br> <!--O value serve para diferençar direntes nomes-->
+            <input type="checkbox" name="curso" value="Curso2"> curso1 <br>
+            <input type="checkbox" name="curso" value="curso3"> curso 2 <br>
+
+            <div class="genero">
+                <input type="radio" name="genero" value="masculino"> masculino <br>
+                <input type="radio" name="genero" value="feminino"> feminino
+                <!--O tipo Radio constroi seleções únicas entre as possiblidades -->    
+
+            </div>
+
+            <input type="reset" name="limpa_campo" value="limpar"> <!--vai limpar as seleções -->
+            <input type="submit" value="enviar"> <!--nestes campos o value vai alterar o nome do botão-->
+
+
+        </form>
+
+    </body>
+</html>
