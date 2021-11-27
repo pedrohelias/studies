@@ -23,8 +23,7 @@
 
             </div>
 
-            <input type="reset" name="limpa_campo" value="limpar"> <!--vai limpar as seleções -->
-            <input type="submit" value="enviar"> <!--nestes campos o value vai alterar o nome do botão-->
+     
 
             <!--existem outras tags interessantes para formularios-->
             <select name="Estados_BR" size="3" multiple> <!--Essa tag Select vai criar um dropdown com as opções possíveis de serem escolhidas-->
@@ -37,6 +36,36 @@
                 <option value="MG">Minas Gerais</option>
             </select>
 
+            <select name="Estados_BR" > <!--Essa tag Select vai criar um dropdown com as opções possíveis de serem escolhidas-->
+                <!--é possível definir um tamanho maximo para o que se mostra com select com o atribuo size. Isto vai alterar o dropdown para um scroll-->
+                <!--com o atributo "Multiple" é possivel escolher mais de um valor-->
+                <option value="none">escolha...</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+            <!--Criação de formularios de contato com textarea-->
+            <input type="text" name="assunto" id="">
+            <textarea name="area_de_texto"></textarea> <!--funciona para mandar mensagem-->
+
+            <!--alguns inputs funcionam apenas em navegadores especificos, como é o caso dos novos inputs de HTML5. Abaixo lista-se alguns deles. É EXTREMAMENTE IMPORTANTE VER SE TODOS FUNCIONAM NOS NAVEGADORES A SEREM UTILIZADOS-->
+            <br>
+            <input type="color" name="cor">
+
+            <br>
+            <input type="date" name="data" max="2018-12-31"> <!--para o campo data é possível definir uma data máxima e uma data minina, com atributor max e min-->
+            <input type="datetime-local" name="data_e_hora"> <!--Com esse é possível adicionar data e hora-->
+            <input type="file" name="aquivo_trabalho">  <!--para enviar um arquivo pro servidor, é necessário que o método seja Post. -->
+            <br>
+            <input type="number" name="numerico"> <!--campo exclusivo para numeros. É possivel colocar minimo e maximo -->
+            <input type="range" min="5" max="10" name="intervalo" value="6"> <!--vai criar um intervalo. Com o Value é possivel colocar valores iniciais-->
+            <input type="reset" name="limpa_campo" value="limpar"> <!--vai limpar as seleções -->
+            <input type="submit" value="enviar"> <!--nestes campos o value vai alterar o nome do botão-->
+
+            <input type="tel" name="telefone"> <!--alterações são perceptíveis em smartphones, ja que alterações visuais para essa tag ocorre la-->
+            <br>
+            <input type="email" name="email" > <!--essa tag verifica se o que está sendo enviado, de fato, é um email-->
         </form>
 
     </body>
