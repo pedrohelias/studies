@@ -75,3 +75,31 @@ if(idade>20){
 }else{
     console.log("sei nao tio")
 }
+
+
+//SWITCH
+
+let nota = 5.0, nota2 = 5.8
+let media = (nota + nota2)/2
+let validador = false
+
+console.log(media)
+
+if(media>5){
+    validador = true
+}
+else{
+    validador = false
+}
+
+
+switch (validador) {
+    case true:
+        console.log("voce passou com media", media)
+        break;
+    case false:
+        console.log("voce reprovou mané")
+        break;
+    default:
+        break;
+}
