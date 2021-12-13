@@ -30,3 +30,31 @@ console.log(variavelNull)
 
 let isTrue = true
 console.log(isTrue)
+
+//OPERADORES 
+// + adição, - subtração, * multiplicação, / divisão, % modulo, ++ incremento, -- decremento
+
+let a = 10
+let b = 20
+let operacao = 0
+
+operacao = a + b
+console.log(operacao)
+
+operacao = a - b
+console.log(operacao)
+
+operacao = a * b
+console.log(operacao)
+
+operacao = a / b
+console.log(operacao)
+
+operacao = a % b
+console.log(operacao)
+
+operacao = ++a
+console.log(operacao)
+
+operacao = --a
+console.log(operacao)
