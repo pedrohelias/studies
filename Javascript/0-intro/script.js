@@ -9,3 +9,24 @@ let variavelExemplo2 = "texto aqui"
 console.log(variavelExemplo)
 console.log(variavelExemplo2)
 
+//TIPOS DE DADOS
+//boolean, null, undefined, string, number
+
+let variavelA = "isso é um texto" //string
+console.log(variavelA)
+
+let variavelB = 10 //number
+console.log(variavelB)
+
+let string1 = "1"
+let string2 = "1"
+console.log(string1 + string2) //o javascript concatena com operador de soma
+
+let variavelUndefined
+console.log(variavelUndefined)
+
+let variavelNull = null
+console.log(variavelNull)
+
+let isTrue = true
+console.log(isTrue)
