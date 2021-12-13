@@ -57,4 +57,11 @@ operacao = ++a
 console.log(operacao)
 
 operacao = --a
-console.log(operacao)
+console.log(operacao)  
+
+//COMPARADORES === Esses 3 iguais comparam não só valor, mas como tipo
+
+let tres = "tres"
+let tresNumero = 3
+console.log(tres === tresNumero) //deve aparecer false
+console.log(tres !== tresNumero) //deve aparecer true
