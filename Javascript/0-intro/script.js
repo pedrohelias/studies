@@ -65,3 +65,13 @@ let tres = "tres"
 let tresNumero = 3
 console.log(tres === tresNumero) //deve aparecer false
 console.log(tres !== tresNumero) //deve aparecer true
+
+//algortimos rapidos
+
+let idade = 30
+
+if(idade>20){
+    console.log("a idade é: ", idade)
+}else{
+    console.log("sei nao tio")
+}
