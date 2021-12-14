@@ -171,3 +171,10 @@ let reposta = mediafuncao(nota1dada,nota2dada)
 let resultado1 = mediafuncao(nota1dada,nota2dada)
 
  console.log("a nota media foi " + resultado1) //com o valor guardado na variavel
+
+ let mediaCalculada2 = (n1,n2) => {
+     let mediaCalc2 = (n1+n2)/2
+     console.log("a função arrow function retornou " + media)
+ } //Também é possível fazer com arrow functions, apenas declarando a variavel com let, apos isso o nome da função, = a variaveis da função => { aqui dentro a função}
+
+ mediaCalculada2(10,5)
