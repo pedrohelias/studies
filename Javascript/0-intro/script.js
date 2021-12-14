@@ -154,5 +154,5 @@ for(contador in vetor3){ //cada vez que passar no laço, vai pegar o indice de v
 
 //FUNÇÔES
 
-
+ 
  
