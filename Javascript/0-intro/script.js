@@ -154,5 +154,20 @@ for(contador in vetor3){ //cada vez que passar no laço, vai pegar o indice de v
 
 //FUNÇÔES
 
- 
- 
+ function mediafuncao(nota1user, nota2user){
+
+    
+    let mediaNota = (nota1user+nota2user)/2
+    console.log(mediaNota)
+    //ou
+    return mediaNota
+ }
+
+let nota1dada = 10
+let nota2dada = 8.5
+
+let reposta = mediafuncao(nota1dada,nota2dada)
+
+let resultado1 = mediafuncao(nota1dada,nota2dada)
+
+ console.log("a nota media foi " + resultado1) //com o valor guardado na variavel
