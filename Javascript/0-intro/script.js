@@ -103,3 +103,24 @@ switch (validador) {
     default:
         break;
 }
+
+//REPETIÇÕES FOR E WHILE
+
+let i = 0
+let repeticao = 10
+
+for(i = 0; i<repeticao; i++ ){
+    console.log("repetição nº " + (i+1))
+}
+
+let j = 1
+let contagem = 10
+
+while(j<=contagem){
+    console.log("aumentando!! Contagem atual de: " + j)
+    j++
+}
+
+if(j=10){
+    console.log("chegou!")
+}
