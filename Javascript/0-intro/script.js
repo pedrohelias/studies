@@ -124,3 +124,35 @@ while(j<=contagem){
 if(j=10){
     console.log("chegou!")
 }
+
+//ARRAYS - sequencial, conjunto de dados, começa sempre do 0, da pra misturar os dados, o indice vai de 0 ate o numero de elementos
+//duas formas para se criar arrays:
+let vetor = new Array() //array vazia
+
+let vetor2 = new Array("numero1", "numero2", "numero3", 4)
+console.log(vetor2[1])
+console.log(vetor2[3])
+
+
+//Segunda forma
+
+let vetor3 = ["teste1", "teste2", "teste3"] //dessa forma não precisa invocar o metodo
+
+console.log(vetor3[2])
+
+let contador = 0
+
+for(contador = 0; contador<vetor3.length; contador++){
+    console.log(vetor3[contador])
+}
+
+//OU
+
+for(contador in vetor3){ //cada vez que passar no laço, vai pegar o indice de vetor3 e vai colocar dentro de contador, até acabar os valores de vetor3
+    console.log(vetor3[contador])   
+}
+
+//FUNÇÔES
+
+
+ 
